@@ -1,7 +1,7 @@
 {
-  "title": "ACME Storefront | Powered by Next.js Commerce",
-  "titleTemplate": "%s - ACME Storefront",
-  "description": "Next.js Commerce -> https://www.nextjs.org/commerce",
+  "title": "Diogo Defante Merch",
+  "titleTemplate": "%s - Diogo Defante Merch",
+  "description": "Loja não oficial do Diogo Defante",
   "openGraph": {
     "type": "website",
     "locale": "en_IE",
