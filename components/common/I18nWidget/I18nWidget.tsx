@@ -28,6 +28,13 @@ const LOCALES_MAP: Record<string, LOCALE_DATA> = {
       alt: 'US Flag',
     },
   },
+  pt: {
+    name: 'Português',
+    img: {
+      filename: 'flag-en-us.svg',
+      alt: 'BR Flag',
+    },
+  },
 }
 
 const I18nWidget: FC = () => {
@@ -35,7 +42,7 @@ const I18nWidget: FC = () => {
   const {
     locale,
     locales,
-    defaultLocale = 'en-US',
+    defaultLocale = 'pt',
     asPath: currentPath,
   } = useRouter()
 

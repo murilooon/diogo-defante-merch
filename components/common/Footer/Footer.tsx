@@ -31,7 +31,7 @@ const Footer: FC<Props> = ({ className, pages }) => {
                 <span className="rounded-full border border-gray-700 mr-2">
                   <Logo />
                 </span>
-                <span>ACME</span>
+                <span>Diogo Defante</span>
               </a>
             </Link>
           </div>
@@ -41,13 +41,6 @@ const Footer: FC<Props> = ({ className, pages }) => {
                 <Link href="/">
                   <a className="text-primary hover:text-accents-6 transition ease-in-out duration-150">
                     Home
-                  </a>
-                </Link>
-              </li>
-              <li className="py-3 md:py-0 md:pb-4">
-                <Link href="/">
-                  <a className="text-primary hover:text-accents-6 transition ease-in-out duration-150">
-                    Careers
                   </a>
                 </Link>
               </li>
@@ -97,10 +90,10 @@ const Footer: FC<Props> = ({ className, pages }) => {
         </div>
         <div className="py-12 flex flex-col md:flex-row justify-between items-center space-y-4">
           <div>
-            <span>&copy; 2020 ACME, Inc. All rights reserved.</span>
+            <span>&copy; 2020 Diogo Defante Merch, Inc. Todos os direitos reservados.</span>
           </div>
           <div className="flex items-center text-primary">
-            <span className="text-primary">Crafted by</span>
+            <span className="text-primary">Construido com</span>
             <a
               rel="noopener"
               href="https://vercel.com"

@@ -52,7 +52,7 @@ const Layout: FC<Props> = ({ children, pageProps }) => {
     modalView,
   } = useUI()
   const { acceptedCookies, onAcceptCookies } = useAcceptCookies()
-  const { locale = 'en-US' } = useRouter()
+  const { locale = 'pt' } = useRouter()
 
   return (
     <CommerceProvider locale={locale}>
